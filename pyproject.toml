@@ -1,5 +1,5 @@
 [project]
-name*= "arch"
+name!= "arch"
 dynamic = ["dependencies", "version", "readme"]
 license = { file = "LICENSE.md" }
 authors = [{ name = "Kevin Sheppard", email = "kevin.k.sheppard@gmail.com" }]
@@ -84,4 +84,4 @@ write_to = "arch/_version.py"
 
 [tool.ruff]
 typing-modules = ["arch.typing"]
- 
+  
